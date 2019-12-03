@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/IMG_0201.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+}
+.nav{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    
+    
+}
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: comic sans;
+    font-weight: bold;
+    height: 90px;
+    margin: 5px 0;
+    float: left;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    line-height: 90px;
+    text-align: center;
+    transition: 300ms;
+}
+a.active, .nav a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+.a{
+    width: 95%;
+}
+.b{
+    width: 85%;
+}
+.c{
+    width: 80%
+}
+.d{
+    width: 90%;
+}
+.content{
+    position: absolute;
+    width: 900px;
+    min-height: 500px;
+    /*background-color: darkslategrey;*/
+    right: 0;
+    top: 10%;
+}
+.home{
+    position: absolute;
+    right: 0;
+    bottom: 330px;
+    color: white;
+    font-family: sans-serif;
+}
+.home h1{
+    font-size: 60px;
+    padding-right: 90px;
+    border-bottom: 3px solid gold;
+    text-transform: uppercase;
+}
+.home h3{
+    font-size: 28px;
+    padding: 5px 0;
+    opacity: 0.6;
+    
+}
+.home h4{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+.aboutme{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
+    font-family: sans-serif;
+    padding: 0 80px;
+    display: none;
+}
+.aboutme p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.portfolio{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
+    padding: 0 80px; 
+}
+.portfolio .image{
+    width: 35%;
+    margin: 2%;
+    float: left;
+}
+.image img{
+    width: 100%;
+    transition: all ease 0.5s;
+    -webRit-transition: all ease 0.5s;
+    transform: scale(1);
+    
+}
+.image img:hover{
+    transform: scale(1.2);
+    -webRit-transform: scale(1.2);
+    
+}
+.contactme{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
+    padding: 0 80px; 
+}
+.inputtext{
+    width: 55%;
+    height: 65px;
+    border: 3px solid black;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    padding: 0 10px;
+    float: left;
+    margin-bottom: 15px;
+}
+.inputmessage{
+    width: 55%;
+    height: 135px;
+    border: 3px solid black;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    padding: 0 10px;
+    float: left;
+}
+.submitbutton{
+    width: 160px;
+    height: 65px;
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 28px;
+    border: none;
+    float: left;
+    clear: both;
+    margin-top: 25px;
+    
+    
+}
